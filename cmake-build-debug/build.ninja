@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/Felipe/CLionProjects/orientacao-a-objetos/cmake-
 
 build cmake_object_order_depends_target_orientacao_a_objetos: phony || CMakeFiles/orientacao_a_objetos.dir
 
-build CMakeFiles/orientacao_a_objetos.dir/ex001.cpp.obj: CXX_COMPILER__orientacao_a_objetos_Debug C$:/Users/Felipe/CLionProjects/orientacao-a-objetos/ex001.cpp || cmake_object_order_depends_target_orientacao_a_objetos
-  DEP_FILE = CMakeFiles\orientacao_a_objetos.dir\ex001.cpp.obj.d
+build CMakeFiles/orientacao_a_objetos.dir/lista1ex04.cpp.obj: CXX_COMPILER__orientacao_a_objetos_Debug C$:/Users/Felipe/CLionProjects/orientacao-a-objetos/lista1ex04.cpp || cmake_object_order_depends_target_orientacao_a_objetos
+  DEP_FILE = CMakeFiles\orientacao_a_objetos.dir\lista1ex04.cpp.obj.d
   FLAGS = -g
   OBJECT_DIR = CMakeFiles\orientacao_a_objetos.dir
   OBJECT_FILE_DIR = CMakeFiles\orientacao_a_objetos.dir
@@ -63,7 +63,7 @@ build CMakeFiles/orientacao_a_objetos.dir/ex001.cpp.obj: CXX_COMPILER__orientaca
 #############################################
 # Link the executable orientacao_a_objetos.exe
 
-build orientacao_a_objetos.exe: CXX_EXECUTABLE_LINKER__orientacao_a_objetos_Debug CMakeFiles/orientacao_a_objetos.dir/ex001.cpp.obj
+build orientacao_a_objetos.exe: CXX_EXECUTABLE_LINKER__orientacao_a_objetos_Debug CMakeFiles/orientacao_a_objetos.dir/lista1ex04.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\orientacao_a_objetos.dir
