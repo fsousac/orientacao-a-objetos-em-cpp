@@ -3,4 +3,4 @@ project(b)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(orientacao_a_objetos lista1ex09.cpp)
+add_executable(orientacao_a_objetos lista2ex07.cpp)
