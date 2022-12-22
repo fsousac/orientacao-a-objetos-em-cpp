@@ -1,3 +1,0 @@
-C:/Users/Felipe/CLionProjects/orientacao-a-objetos/cmake-build-debug/CMakeFiles/orientacao_a_objetos.dir
-C:/Users/Felipe/CLionProjects/orientacao-a-objetos/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Felipe/CLionProjects/orientacao-a-objetos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
