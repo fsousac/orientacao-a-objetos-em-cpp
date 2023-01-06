@@ -3,27 +3,29 @@
 using namespace std;
 
 class Cartesiano{
+private:
+    float x,y;
+
 public:
-    float x=0,y=0;
+    void entrada_dados();
+    void mostra_dados();
 
 };
-void entrada_dados(Cartesiano &dc);
-void mostra_dados(Cartesiano &dc);
+void Cartesiano::entrada_dados(){
+    cout<<"Digite o valor de x: ";
+    cin>>x;
+    cout<<"Digite o valor de y: ";
+    cin>>y;
+}
+void Cartesiano::mostra_dados(){
+    cout<<"O valor de x e: "<<x<<endl;
+    cout<<"O valor de y e: "<<y<<endl;
+}
 
 int main(){
     Cartesiano dc;
-    entrada_dados(dc);
-    mostra_dados(dc);
+    dc.entrada_dados();
+    dc.mostra_dados();
     return 0;
 }
 
-void entrada_dados(Cartesiano &dc){
-    cout<<"Digite o valor de x: ";
-    cin>>dc.x;
-    cout<<"Digite o valor de y: ";
-    cin>>dc.y;
-}
-void mostra_dados(Cartesiano &dc){
-    cout<<"O valor de x e: "<<dc.x<<endl;
-    cout<<"O valor de y e: "<<dc.y<<endl;
-}
