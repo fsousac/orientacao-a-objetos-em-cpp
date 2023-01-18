@@ -8,10 +8,10 @@ private:
     string NomeMarca, Modelo;
     float Rpreco;
 public:
-    TV(){
-        NomeMarca = "Nao informado";
-        Modelo = "Nao informado";
-        Rpreco = 0;
+    TV(string nm_mrk, string mdl, float prc){
+        NomeMarca = nm_mrk;
+        Modelo = mdl;
+        Rpreco = prc;
     }
     void mostrar(){
         cout<<"Marca: "<<NomeMarca<<endl
@@ -22,7 +22,7 @@ public:
         cout<<"Digite a marca: ";
         getline(cin,NomeMarca);
         cout<<"Digite o modelo: ";
-        getline(cin,Modelo);
+        cin>>Modelo;
         do{
             cout<<"Digite o preco: ";
             cin>>Rpreco;
@@ -31,7 +31,7 @@ public:
 };
 
 int main(void){
-    TV tv1;
+    TV tv1("dell", "monitor", 1500);
     tv1.escrever();
     tv1.mostrar();
 }
