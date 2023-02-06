@@ -1,0 +1,6 @@
+.idea
+.vscode
+.json
+CMakeLists.txt
+cmake-build-default
+.exe
