@@ -13,10 +13,10 @@ public:
     }
     void set_pessoa(){
         do{cout<<"Digite o nome: ";
-            cin.ignore();
             getline(cin,nome);
         } while (nome == "Nao informado");
         do{cout<<"Digite o id: ";
+            
             getline(cin,id);
         } while (id == "Nao informado");
         do {
